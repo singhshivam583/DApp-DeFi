@@ -771,7 +771,7 @@
   "sourceMap": "72:284:0:-:0;;;107:2;93:16;;72:284;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "72:284:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;93:16;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;208:61;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;116:83;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;277:75;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;93:16;;;;:::o;208:61::-;258:3;256:1;:5;;;;208:61;:::o;116:83::-;169:6;188:3;186:5;;158:41;116:83;:::o;277:75::-;320:4;343:1;;336:8;;277:75;:::o;7:77:1:-;44:7;73:5;62:16;;7:77;;;:::o;90:118::-;177:24;195:5;177:24;:::i;:::-;172:3;165:37;90:118;;:::o;214:222::-;307:4;345:2;334:9;330:18;322:26;;358:71;426:1;415:9;411:17;402:6;358:71;:::i;:::-;214:222;;;;:::o;523:117::-;632:1;629;622:12;769:122;842:24;860:5;842:24;:::i;:::-;835:5;832:35;822:63;;881:1;878;871:12;822:63;769:122;:::o;897:139::-;943:5;981:6;968:20;959:29;;997:33;1024:5;997:33;:::i;:::-;897:139;;;;:::o;1042:329::-;1101:6;1150:2;1138:9;1129:7;1125:23;1121:32;1118:119;;;1156:79;;:::i;:::-;1118:119;1276:1;1301:53;1346:7;1337:6;1326:9;1322:22;1301:53;:::i;:::-;1291:63;;1247:117;1042:329;;;;:::o",
   "source": "// SPDX-License-Identifier: GPL-3.0\r\npragma solidity >=0.8.2 <0.9.0;\r\n\r\ncontract Hello{\r\n    uint public x=10;\r\n    function setterlocal(uint num) public pure{\r\n        uint a;\r\n        a=num;\r\n    }\r\n \r\n    function setterstate(uint num) public{\r\n        x=num;\r\n    }\r\n\r\n    function getterstate() public view returns(uint){\r\n        return x;\r\n    } \r\n}",
-  "sourcePath": "D:\\Programing\\Blockchain\\Dapp Projects\\Mini Dapp\\contracts\\Simple.sol",
+  "sourcePath": "D:\\Blockchain\\DApp-DeFi\\mini-dapp-template\\contracts\\Simple.sol",
   "ast": {
     "absolutePath": "project:/contracts/Simple.sol",
     "exportedSymbols": {
@@ -1199,12 +1199,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xBD5eb19f108af47c3789A59857d222F90D017f39",
-      "transactionHash": "0xc41c1bde4ce232a41a797a5e038e3b738d6153ee2fc2cba275b88566d55fa249"
+      "address": "0x8bE1b84b8f35C7befD70c8ECBd7cfC810204C587",
+      "transactionHash": "0x4af43a76f818eaf9bab178e1d2f73b9b7904fcc0413c947eacb3e949d4aaa9a3"
     }
   },
-  "schemaVersion": "3.4.14",
-  "updatedAt": "2023-08-17T08:28:52.798Z",
+  "schemaVersion": "3.4.15",
+  "updatedAt": "2023-08-17T12:06:17.815Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

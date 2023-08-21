@@ -50,7 +50,7 @@ function App() {
     const {contract}= state;
     const data= document.querySelector("#data").value;
     await contract.methods.setterstate(data)
-    .send({from:"0x649373422beA35Ae1a4ec8640D1a348e9Ae8cC04"});
+    .send({from:"0xE4e93e43ad221F90a4D557523213e59eE98dda12"});
     // "address": "0xE3ee9BFf8080aA0d6398BaCEF96b1917393c093f" 
     // .send({from:"0x77df420555d68D5280c3A6D472C13c9713EA0B72"});
 
